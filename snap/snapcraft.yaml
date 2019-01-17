@@ -1,0 +1,26 @@
+name:  # check to see if it's available
+version: git
+summary:  # 79 char long summary
+description: |
+  
+grade: stable # must be 'stable' to release into candidate/stable channels
+confinement: strict # use 'strict' once you have the right plugs
+
+apps:
+  nameofsnap:
+    command: 
+    plugs:
+      - home
+     
+parts: 
+  nameofpart:
+    source: 
+    source-type: git
+    plugin: python
+    python-version: 
+    
+    build-packages:
+      - 
+      
+    stage-packages:
+      - 
