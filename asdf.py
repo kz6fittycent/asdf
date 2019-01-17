@@ -13,6 +13,7 @@ def main():
        print("You should watch this video: https://youtu.be/Pr8GD4X35gU")
        print()
     else:
+       print()
        print ("Well, leave me alone!")
        print()
        time.sleep(1)
