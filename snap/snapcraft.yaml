@@ -1,26 +1,24 @@
-name:  # check to see if it's available
+name: asdf  # check to see if it's available
 version: git
-summary:  # 79 char long summary
+summary: I was bored... # 79 char long summary
 description: |
-  
+  This is likely the dumbest thing you've ever installed. 
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs
 
 apps:
-  nameofsnap:
-    command: 
-    plugs:
-      - home
+  asdf:
+    command: python3 asdf.py
      
 parts: 
-  nameofpart:
-    source: 
+  asdf:
+    source: https://github.com/kz6fittycent/asdf
     source-type: git
     plugin: python
-    python-version: 
+    python-version: python3
     
     build-packages:
-      - 
+      - python3
       
     stage-packages:
-      - 
+      - python3
