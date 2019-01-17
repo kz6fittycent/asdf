@@ -3,8 +3,10 @@ import time
 
 def main():
     print ("You bored?")
+    print()
     choice = input ("yes or no?    ").lower()
     if choice.startswith('y'):
+       print()
        print ("Me, too...")
        print()
        time.sleep(1)
