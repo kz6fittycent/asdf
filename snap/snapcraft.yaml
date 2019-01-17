@@ -8,7 +8,7 @@ confinement: strict # use 'strict' once you have the right plugs
 
 apps:
   asdf:
-    command: python3 asdf.py
+    command: python3 $SNAP/asdf.py
      
 parts: 
   asdf:
