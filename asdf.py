@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import time
+import textwrap
 
 def main():
     print ("You bored?")
@@ -20,5 +21,12 @@ def main():
        print()
        print ("...and go watch this video! https://youtu.be/Pr8GD4X35gU")
        print()
+       print (
+        
+	    00000	00000
+	    (* )	 ( .)
+
+       [=============]
+       )
 
 main()
