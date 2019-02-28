@@ -2,7 +2,22 @@
 import time
 import textwrap
 
+
 def main():
+    print(r"""\
+
+
+
+		00000	  00000
+	        (* )	   ( .)
+
+       		[=============]
+		
+
+
+		
+		""")
+
     print ("You bored?")
     print()
     choice = input ("yes or no?    ").lower()
@@ -21,12 +36,4 @@ def main():
        print()
        print ("...and go watch this video! https://youtu.be/Pr8GD4X35gU")
        print()
-       print (
-        
-	    00000	00000
-	    (* )	 ( .)
-
-       [=============]
-       )
-
 main()
